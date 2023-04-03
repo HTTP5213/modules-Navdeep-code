@@ -8,7 +8,9 @@ const HobbitSettlement = class {
 		this.originalSettlement = { name: 'Eriador', details: eriadorDetails };
 	}
 };
-const buckland = new HobbitSettlement('Buckland', 2340, 'Gorhendad Oldbuck');
+
 const theShire = new HobbitSettlement('The Shire', 1601, ['Marcho', 'Blanco']);
 
-export { theShire, buckland, HobbitSettlement };
+const buckland = new HobbitSettlement('Buckland', 2340, 'Gorhendad Oldbuck');
+
+export { buckland, theShire, HobbitSettlement };
